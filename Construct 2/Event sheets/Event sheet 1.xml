@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="num1" sid="6211051181308448" static="0" type="number">0</variable>
+        <variable constant="0" name="num2" sid="5059461910834243" static="0" type="number">0</variable>
+        <variable constant="0" name="resultado" sid="6029486478526059" static="0" type="number">0</variable>
+        <event-block sid="9520177331851254">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6337333653257475" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9176202840246338" type="System">
+                    <param id="0" name="Variable">num1</param>
+                    <param id="1" name="Value">TextBox.Text</param>
+                </action>
+                <action id="-9" name="Set value" sid="2298541342729985" type="System">
+                    <param id="0" name="Variable">num2</param>
+                    <param id="1" name="Value">TextBox2.Text</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8631158505441118">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2160299551687597" type="Touch">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="5170072380093842" type="System">
+                    <param id="0" name="Variable">resultado</param>
+                    <param id="1" name="Value">num1+num2</param>
+                </action>
+                <action id="0" name="Set text" sid="5298644887097457" type="resultado">
+                    <param id="0" name="Text">resultado</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6856252848012072">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2451819999583565" type="Touch">
+                    <param id="0" name="Object">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2322936592728819" type="System">
+                    <param id="0" name="Variable">resultado</param>
+                    <param id="1" name="Value">num1-num2</param>
+                </action>
+                <action id="0" name="Set text" sid="2601089027273528" type="resultado">
+                    <param id="0" name="Text">resultado</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1149886244365227">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3955591355215045" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3926960780692518" type="System">
+                    <param id="0" name="Variable">resultado</param>
+                    <param id="1" name="Value">num1/num2</param>
+                </action>
+                <action id="0" name="Set text" sid="3968885563795509" type="resultado">
+                    <param id="0" name="Text">resultado</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="679053450450935">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3972392291452225" type="Touch">
+                    <param id="0" name="Object">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9594493312184753" type="System">
+                    <param id="0" name="Variable">resultado</param>
+                    <param id="1" name="Value">num1*num2</param>
+                </action>
+                <action id="0" name="Set text" sid="7585672711839963" type="resultado">
+                    <param id="0" name="Text">resultado</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

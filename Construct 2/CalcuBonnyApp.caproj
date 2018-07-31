@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>CalcuBonnyApp</name>
+    <description>Aplicación CalcuBonnyApp Demo (Xdk ,construct 2)</description>
+    <version>1.0.0.0</version>
+    <author>Luishiño Pericena Choque</author>
+    <author-email>pericena12@gmail.com</author-email>
+    <author-website>https://lpericena.blogspot.com/</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>480</width>
+        <height>854</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="2666012604226285">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4250866751215239" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\Sin-título-9-Recuperado.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="8274539517253586">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9735468479205136" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\Sin-título-2.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.935" y="0.065" />
+                            <point x="0.955" y="0.5" />
+                            <point x="0.93" y="0.93" />
+                            <point x="0.07" y="0.93" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="1824871781379167">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6199167092789223" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\Sin-título-3.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.935" y="0.065" />
+                            <point x="0.955" y="0.5" />
+                            <point x="0.93" y="0.93" />
+                            <point x="0.07" y="0.93" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="5751442827536987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="15471606009543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\Sin-título-4.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.935" y="0.065" />
+                            <point x="0.955" y="0.5" />
+                            <point x="0.93" y="0.93" />
+                            <point x="0.07" y="0.93" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="9630293911065692">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9409048272231233" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\Sin-título-5.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.935" y="0.065" />
+                            <point x="0.955" y="0.5" />
+                            <point x="0.93" y="0.93" />
+                            <point x="0.07" y="0.93" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="6953378708204487">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1570654847641535" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\Sin-título-6.png">
+                        <collision-poly>
+                            <point x="0.05" y="0.375" />
+                            <point x="0.5" y="0.125" />
+                            <point x="0.950667" y="0.37" />
+                            <point x="0.956" y="0.67" />
+                            <point x="0.5" y="0.705" />
+                            <point x="0.0573333" y="0.57" />
+                            <point x="0.0506667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.05" y="0.375" />
+                            <point x="0.5" y="0.125" />
+                            <point x="0.950667" y="0.37" />
+                            <point x="0.956" y="0.67" />
+                            <point x="0.5" y="0.705" />
+                            <point x="0.0573333" y="0.57" />
+                            <point x="0.0506667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="6144415931952693">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4560812765323833" speed="5">
+                    <frame duration="1" hotspotX="0.501149" hotspotY="0.501292" original-source="C:\Users\Luishiño Pericena Ch\Documents\GAME\Calculadora\imagenes\snowball.png">
+                        <collision-poly>
+                            <point x="0.312644" y="0.351421" />
+                            <point x="0.498851" y="0.330749" />
+                            <point x="0.698851" y="0.338501" />
+                            <point x="0.698851" y="0.498708" />
+                            <point x="0.501149" y="0.439276" />
+                            <point x="0.498851" y="0.899225" />
+                            <point x="0.156322" y="0.824289" />
+                            <point x="0.193103" y="0.498708" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="2568363970751351">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="TextBox" sid="9688940935915771">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="TextBox2" sid="5709919494510888">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="resultado" sid="1672712756481188">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite8" sid="3498436492430527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2226735260954374" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="2422017584626028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5886436850101705" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="7">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
